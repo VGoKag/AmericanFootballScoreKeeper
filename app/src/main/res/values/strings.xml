@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">American Football Score Keeper</string>
+    <string name="home_title">Home</string>
+    <string name="td_button">TouchDown</string>
+    <string name="xt_point_button">Extra PT</string>
+    <string name="two_pt_conv_button">2PT Conv.</string>
+    <string name="field_goal_button">Field Goal</string>
+    <string name="safety_button">Safety</string>
+    <string name="vis_title">Visitor</string>
+    <string name="new_game_button">New Game</string>
+
 </resources>

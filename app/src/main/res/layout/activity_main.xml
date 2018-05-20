@@ -30,7 +30,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:text="Home"
+                android:text="@string/home_title"
                 android:textColor="#000000"
                 android:textSize="32sp" />
 
@@ -52,7 +52,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="24dp"
                 android:onClick="TDHome"
-                android:text="Touchdown"
+                android:text="@string/td_button"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -67,7 +67,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:onClick="extraPointHome"
-                    android:text="Extra PT" />
+                    android:text="@string/xt_point_button" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:onClick="twoPointConversionHome"
-                    android:text="2PT CONV." />
+                    android:text="@string/two_pt_conv_button" />
 
 
             </LinearLayout>
@@ -87,7 +87,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginTop="24dp"
                 android:onClick="fieldGoalHome"
-                android:text="Field Goal"
+                android:text="@string/field_goal_button"
                 android:textStyle="bold" />
 
             <Button
@@ -97,7 +97,7 @@
                 android:layout_marginRight="32dp"
                 android:layout_marginTop="24dp"
                 android:onClick="safetyHome"
-                android:text="Safety" />
+                android:text="@string/safety_button" />
 
         </LinearLayout>
 
@@ -121,7 +121,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
-                android:text="Visitor"
+                android:text="@string/vis_title"
                 android:textColor="#000000"
                 android:textSize="32sp" />
 
@@ -143,7 +143,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="24dp"
                 android:onClick="TDVisitor"
-                android:text="TouchDown"
+                android:text="@string/td_button"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -158,7 +158,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:onClick="extraPointVisitor"
-                    android:text="Extra PT" />
+                    android:text="@string/xt_point_button" />
 
                 <Button
                     android:layout_width="match_parent"
@@ -166,7 +166,7 @@
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-light"
                     android:onClick="twoPointConversionVisitor"
-                    android:text="2PT CONV." />
+                    android:text="@string/two_pt_conv_button" />
 
 
             </LinearLayout>
@@ -178,7 +178,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginTop="24dp"
                 android:onClick="fieldGoalVisitor"
-                android:text="Field Goal"
+                android:text="@string/field_goal_button"
                 android:textStyle="bold" />
 
             <Button
@@ -188,7 +188,7 @@
                 android:layout_marginRight="32dp"
                 android:layout_marginTop="24dp"
                 android:onClick="safetyVisitor"
-                android:text="Safety" />
+                android:text="@string/safety_button" />
 
         </LinearLayout>
 
@@ -201,6 +201,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
         android:onClick="newGame"
-        android:text="New Game" />
+        android:text="@string/new_game_button" />
 
 </RelativeLayout>
